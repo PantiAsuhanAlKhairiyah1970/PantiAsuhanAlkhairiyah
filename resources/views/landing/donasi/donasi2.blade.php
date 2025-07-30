@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-12">
                     <label for="inputNominal" class="form-label">Nominal</label>
-                    <input type="text" required onkeydown="formatnumber()" class="form-control" id="formattedNominal" placeholder="*minimal donasi Rp10.000"
+                    <input type="text" required onkeydown="formatnumber()" class="form-control" id="formattedNominal" placeholder="(minimal donasi Rp10.000)"
                     <input type="hidden" required class="form-control" name="nominal" id="inputNominal">
                 </div>
                 <div class="col-12">
