@@ -225,7 +225,7 @@ document.getElementById('formZakat').addEventListener('submit', function(e) {
 <br>
 
     <div class="container">
-        <h2 class="text">MAPS</h2>
+        <h2 class="text">ALAMAT</h2>
 
         <div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0962117427166!2d106.91811607376266!3d-6.117749793868885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a201bd16da507%3A0x53b8635e9dea2f9a!2sPanti%20Asuhan%20Al-khairiyah!5e0!3m2!1sid!2sid!4v1731971429283!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
