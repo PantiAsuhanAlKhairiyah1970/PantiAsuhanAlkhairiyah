@@ -107,7 +107,9 @@
             <img src="{{ asset('assets/beranda/image1.png') }}" alt="panti asuhan al-khairiyah" width="600" height="300">
         @endif --}}
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/E04tjqquqi4?si=LYs8RCfRwOqQ9dPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/E04tjqquqi4?si=LYs8RCfRwOqQ9dPm" title="YouTube video" allowfullscreen> </iframe>
+        </div>
 
         {{-- Visi --}}
         <h2>VISI</h2>
@@ -225,11 +227,12 @@ document.getElementById('formZakat').addEventListener('submit', function(e) {
 <br>
 
     <div class="container">
-        <h2 class="text">MAPS</h2>
-
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.0962117427166!2d106.91811607376266!3d-6.117749793868885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a201bd16da507%3A0x53b8635e9dea2f9a!2sPanti%20Asuhan%20Al-khairiyah!5e0!3m2!1sid!2sid!4v1731971429283!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <h2 class="text">ALAMAT</h2>
+        <div class="row w-100">
+        <div class="col-lg-6 my-4">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229760.98068051075!2d106.61583423614499!3d-6.117768987361196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a201bd16da507%3A0x53b8635e9dea2f9a!2sPanti%20Asuhan%20Al-khairiyah!5e1!3m2!1sid!2sid!4v1753867328434!5m2!1sid!2sid" class="w-100" height="400" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
     </div>
 
     <div class="embed-responsive embed-responsive-1by1" style="align-content: center !important;">
